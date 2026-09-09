@@ -7,8 +7,6 @@ Instead of the bloated sudo, I use a fork of opendoas on an Artix build... Visit
 - Contrasting with popular opinion in iSH developers communities I like to view proprietary sandboxes (including the one in iOS) as non-existent since I can't audit them.
 - I also add error codes in the situation of a crash to prevent silent failures.
 
-**Note:** I have other projects but maintain them less actively because superior or more active alternatives exist (e.g., iwmenu vs. iwdwifi).
-
 ## What I've fixed and focus most on
 - I focus on resource leaks a lot since they eat resources, make the system unstable and ruin security.
 - I also focus a lot on integer overflow/underflows, buffer overflow/underflows and null pointer dereferences a lot simply they are such major vulnerabilities.
@@ -18,6 +16,8 @@ Instead of the bloated sudo, I use a fork of opendoas on an Artix build... Visit
 # My multi-downloader project
 - multi-downloader combines some of the best tools (such as surge, git, wget for finding filenames before something else downloads the actual files when downloading a whole directory and many more) for downloading software in their specific niche for fast downloads and so I don't have to remember each tool's specific usage.
 - It hasn't been given much modifications recently because it works well for me and so far as I know it has no issues or bugs. Don't get me wrong, this project isn't abandoned, it just works so I don't want to bloat it.
+
+**Note:** I have other projects not mentioned but maintain them less actively because superior or more active alternatives exist (e.g., iwmenu vs. iwdwifi).
 
 # My security and coding views and ethics
 - I refuse to make code that isn't open-source.
