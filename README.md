@@ -29,7 +29,7 @@ Instead of the bloated sudo, I use a fork of opendoas on an Artix build... Visit
 - If you have a mac and an iPhone please do dynamic analysis and testing of ish-bugs since I don't have a mac and therefore can't sideload my own changes.
 
 # About me and what I'm interested in
-- Self-taught open-source developer, strongest in low-level systems, architecture, and security. Weak with syntax, abstractions, and high-level languages (I can't even write a web app, low-level is just more intuitive somehow). ps: Never ask me to program in HTML, CSS, JS and probably not python; it won't go well, they're too high level for me.
+- Self-taught open-source developer, strongest in low-level systems, architecture, and security. Weak with syntax, abstractions, and high-level languages (I can't even write a web app, low-level is just more intuitive somehow). ps: Never ask me to program in HTML, CSS, JS and probably not python; it won't go well, they're too high level for me. Also if you ask me to fix a memory leak without looking up syntax I'll struggle (I'd even rather see i = i + 1 if possible to i++).
 -  I only work on projects with purpose.
 -  I am open to AI but also have concerns with it.
 -  I am very interested in Plan9's namespaces, seL4 and LionsOS (especially regarding its fast IPC communication, and lock free design) and beOS (and haiku) extended attributes and multithreading architecture but have never actually tried any of them, it is just curiosity in the architecture for now.
