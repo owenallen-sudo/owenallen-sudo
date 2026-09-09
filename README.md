@@ -1,18 +1,45 @@
 # I hate sudo, obviously
-Instead of the bloated sudo I use a fork of opendoas on an artix build. I also use the runit init system because it follows the unix philosophy and limine because it is less bloated than grub. I do everything but browsing from the TTY on my computer, without any multiplexer. I start sway followed by librewolf in a heavily restricted firejail if it requires browsing. It doesn't even have access to my downloads folder. I also use unbound without forwarding because of privacy and security concerns. I am currently also recently giving the penquin a diet of only the drivers I need, down to my RTL8852BE wifi card, all inbuilt without modules because as you can see the penquin is getting really, really fat.
+(Yes, I know my username is owenallen-sudo. The irony is intentional.)
+Instead of the bloated sudo, I use a fork of opendoas on an Artix build... Visit the bottom of this README under the 'My Setup' section if interested in my setup.
 
-# My main projects
-1. owenallen-sudo/ish-bugs for catching bugs and vulnerabilities in global application iSH and patching them (I plan on it being my most active project for quite some time).
-2. owenallen-sudo/multi-downloader combining some of the best tools for downloading software in their specific niche for fast downloads and not having to remember each the backend's specific usage.
-3. I have other projects but I don't pay as much attention to most of them any longer since I don't need them any longer and there are better alternatives for them such as iwmenu compared to my iwdwifi.
+# My ish-bugs project
+- ish-bugs is by a large margin my most active and most recent project focusing on fixing major vulnerabilities and bugs in iSH (an x86 alpine emulator on iOS) as well as just cleaning the codebase.
+- Contrasting with popular opinion in iSH developers communities I like to view proprietary sandboxes (including the one in iOS) as non-existent since I can't audit them.
+- I also add error codes in the situation of a crash to prevent silent failures.
+
+**Note:** I have other projects but maintain them less actively because superior or more active alternatives exist (e.g., iwmenu vs. iwdwifi).
+
+## What I've fixed and focus most on
+- I focus on resource leaks a lot since they eat resources, make the system unstable and ruin security.
+- I also focus a lot on integer overflow/underflows, buffer overflow/underflows and null pointer dereferences a lot simply they are such major vulnerabilities.
+## PRs
+- Despite contrasts in philosophy I still attempt PRs because who realistically is going to put down a security fix.
+
+# My multi-downloader project
+- multi-downloader combines some of the best tools (such as surge, git, wget for finding filenames before something else downloads the actual files when downloading a whole directory and many more) for downloading software in their specific niche for fast downloads and so I don't have to remember each tool's specific usage.
+- It hasn't been given much modifications recently because it works well for me and so far as I know it has no issues or bugs. Don't get me wrong, this project isn't abandoned, it just works so I don't want to bloat it.
 
 # My security and coding views and ethics
-1. Most importantly I like to assume a sandbox doesn't exist if it is proprietary since I can't audit it.
-2. I refuse to make code that isn't open-source.
-3. I much prefer small, auditable codebases
-4. I view "feature-rich" as usually meaning bloated
-5. I have several times read over NASA's power of 10 but don't implement it due to impracticality. I like to avoid setjmp, longjmp, goto and recursion though. I'll also soon start doinmg most my compiling c in -Wpedantic mode.
-6. I also have fears of proprietary software or firmware containing massive vulnerabilities or backdoors.
+- I refuse to make code that isn't open-source.
+- I much prefer small, auditable codebases over "feature-rich" (bloated) alternatives
+- I have several times read over NASA's power of 10 but don't implement it due to impracticality. I like to avoid setjmp, longjmp, goto and recursion though. I'll also soon start doing most my compiling c in -Wpedantic mode.
+
+# Contributions
+- I would love it for people to audit my codebases, especially with AI so I can keep my code clean, free of bloat and free of bugs. Particularly in ish-bugs.
+- If you have a mac and an iPhone please do dynamic analysis and testing of ish-bugs since I don't have a mac and therefore can't sideload my own changes.
 
 # About me and what I'm interested in
-I'm an open-source software developer (I am best at low level stuff, architecture and security, I suck at remembering syntax and high-level languages) who works on projects such as owenallen-sudo/ish to fix bugs in ish and owenallen-sudo/multi-downloader for downloading software. I am also very interested in plan9's namespaces, seL4 and LionsOS (especially regarding it's fast IPC communication, and lock free deisgn) and beOS (and haiku) extended attributes and multithreading architecture but have never actually tried any of them. My greatest interests are in kernel and filesystem architectures and I plan on working on them once I am more experienced (whilst still working finding bugs in iSH if iSH isn't completely abandoned by then) but not now.
+- Self-taught open-source developer, strongest in low-level systems, architecture, and security. Weak with syntax, abstractions, and high-level languages (I can't even write a web app, low-level is just more intuitive somehow).
+-  I only work on projects with purpose.
+-  I am open to AI but also have concerns with it.
+-  I am very interested in Plan9's namespaces, seL4 and LionsOS (especially regarding its fast IPC communication, and lock free design) and beOS (and haiku) extended attributes and multithreading architecture but have never actually tried any of them, it is just curiosity in the architecture for now.
+-  My greatest interests are in kernel and filesystem architectures but that is just curiosity for now.
+
+# My setup
+- **My OS** I use a manual artix base build
+- **Root access:** fork of opendoas
+- **Init system:** runit (clean and follows the Unix philosophy)
+- **Bootloader:** Limine (less bloated than GRUB)
+- **Workflow:** TTY for everything; Sway WM + LibreWolf in Firejail (access to nothing but its own profile) only when browsing
+- **DNS:** Unbound without forwarding (privacy/security)
+- **The penguin's diet:** Will soon be custom-built with only essential drivers (RTL8852BE, built-in—no modules) because of how fat the penguin is getting.
