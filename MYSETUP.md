@@ -12,6 +12,5 @@
 - I will compile only the drivers for my hardware, down to the RTL8852BE wifi driver
 - No bluetooth or ethernet support; I use wifi and simply don't need bluetooth
 - NUMA emulation
-- Other important things
 - Optimised more for security than performance with performance as a 2nd priority
 
