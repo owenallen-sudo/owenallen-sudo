@@ -1,6 +1,6 @@
 # I hate sudo, obviously
 (Yes, I know my username is owenallen-sudo. The irony is intentional.)
-Instead of the bloated sudo, I use a fork of opendoas on an Artix build... Visit my MYSETUP.md if interested in my setup. Also visit ABOUTME.md if curoius about my interests. Please visit WHY-GITHUB-IS-BAD.md even if you don't feel interested.
+Instead of the bloated sudo, I use a fork of opendoas on an Artix build... Visit my MYSETUP.md if interested in my setup. Also visit ABOUTME.md if curious about my interests. Please visit WHY-GITHUB-IS-BAD.md even if you don't feel interested.
 
 # My ish-bugs project
 - ish-bugs is by a large margin my most active and most recent project focusing on fixing major vulnerabilities and bugs in iSH (an x86 alpine emulator on iOS) as well as just cleaning the codebase.
