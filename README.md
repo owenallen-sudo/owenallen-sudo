@@ -35,6 +35,14 @@ Instead of the bloated sudo, I use a fork of opendoas on an Artix build... Visit
 -  I am very interested in Plan9's namespaces, seL4 and LionsOS (especially regarding its fast IPC communication, and lock free design) and beOS (and haiku) extended attributes and multithreading architecture but have never actually tried any of them, it is just curiosity in the architecture for now.
 -  My greatest interests are in kernel and filesystem architectures but that is just curiosity for now.
 
+This project is currently hosted on GitHub.  This is not ideal; GitHub is a
+proprietary, trade-secret system that is not Free and Open Souce Software
+(FOSS).  I am deeply concerned about using a proprietary system like GitHub
+to develop my FOSS projects. I rely on AI though so don't want to use codeberg (because of their ban on AI) and don't want to self-host because my wifi is terrible and it will be a major issue for people visiting my projects. I urge you to read about the
+[Give up GitHub](https://GiveUpGitHub.org) campaign from
+[the Software Freedom Conservancy](https://sfconservancy.org) and https://www.howtogeek.com/why-developers-are-ditching-github-for-codeberg-and-self-hosting-alternatives/ to understand
+some of the reasons why GitHub is not a good place to host FOSS projects. I also urge you to read https://www.gnu.org/software/repo-criteria-evaluation.html for more alternatives to GitHub. 
+
 # My setup
 - **My OS** I use a manual artix base build
 - **Root access:** fork of opendoas
@@ -43,3 +51,11 @@ Instead of the bloated sudo, I use a fork of opendoas on an Artix build... Visit
 - **Workflow:** TTY for everything; Sway WM + LibreWolf in Firejail (access to nothing but its own profile) only when browsing
 - **DNS:** Unbound without forwarding (privacy/security)
 - **The penguin's diet:** Will soon be custom-built with only essential drivers (RTL8852BE, built-in—no modules) because of how fat the penguin is getting.
+
+My projects are currently hosted on GitHub.  This is not ideal; GitHub is a
+proprietary, trade-secret system that is not Free and Open Souce Software
+(FOSS).  I am deeply concerned about using a proprietary system like GitHub
+to develop my FOSS projects. I rely on AI though so don't want to use codeberg (because of their ban on AI) and don't want to self-host because my wifi is terrible and it will be a major issue for people visiting my projects and am actively looking fro good alternatives I can switch too. I urge you to read about the
+[Give up GitHub](https://GiveUpGitHub.org) campaign from
+[the Software Freedom Conservancy](https://sfconservancy.org) and https://www.howtogeek.com/why-developers-are-ditching-github-for-codeberg-and-self-hosting-alternatives/ to understand
+some of the reasons why GitHub is not a good place to host FOSS projects. I also urge you to read https://www.gnu.org/software/repo-criteria-evaluation.html for more alternatives to GitHub. If you don't move please spread the word and add a section like this to your README.md
