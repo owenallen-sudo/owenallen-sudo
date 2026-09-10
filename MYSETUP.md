@@ -4,7 +4,7 @@
 - **Init system:** runit (clean and follows the Unix philosophy)
 - **Bootloader:** Limine (less bloated than GRUB)
 - **Workflow:** TTY for everything; Sway WM + LibreWolf in Firejail (access to nothing but its own profile) mainly when browsing
-- **DNS:** Unbound without forwarding (privacy/security), check UNBOUND.md for my configuration
+- **DNS:** Unbound without forwarding due to privacy and security concerns
 
 # The penquins upcoming diet
 - Linux kernel 7.2.2
