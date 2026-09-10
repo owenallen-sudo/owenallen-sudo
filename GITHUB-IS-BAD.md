@@ -20,6 +20,6 @@
 - I am seeing more promising options now though so may switch some repositories soon.
 
 # When I switch
-- When I do switch to an alternative I will keep an active GitHub mirror at first before archiving some GitHub repositories and I will keep links to my active repo's in the README
+- When I do switch to an alternative I will keep an active GitHub mirror for all repo's at first before archiving some GitHub repositories.
 - My smaller projects will be moved to the alternative platform whilst keeping a detailed README saying the programming language(s), usage and other important things on GitHub with links to the actual source code.
 - I will likely keep forks of GitHub projects and important projects such as my ish-bugs (that I may want to get merged upstream later) on GitHub for longer or permanently so it is easier for the upstream maintainers (I will also keep it on the alternative platform).
