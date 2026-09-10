@@ -16,3 +16,4 @@
 
 # When I switch
 - When I do switch to an alternative I will keep an active GitHub mirror at first before archiving the GitHub repositories and keep links to my active repo's in the README
+- I will likely keep forks of GitHub projects such as my ish-bugs (that I may want to get merged upstream later) on GitHub for longer so it is easier for the upstream maintainers.
