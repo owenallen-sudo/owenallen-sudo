@@ -1,9 +1,12 @@
 # The main problems with GitHub
 - GitHub is a proprietary, trade-secret system that is not Free and Open Souce Software (FOSS).
-- GitHub requires JS which is also proprietary
-- GitHub is owned by microsoft
-- GitHub forces features on me I don't want
-- GitHub seems to want you to have "bad licensing habits"
+- GitHub requires JS which is also proprietary.
+- GitHub is owned by Microsoft.
+- Former CEO and founder of GitHub has criticised copyleft licenses.
+- Since 2001 Microsoft has criticised the GPL and copyleft licenses.
+- GitHub completely ignores copyleft licenses such as the GPL when training Copilot.
+- GitHub forces features that most of us don't want.
+- GitHub seems to want you to have 'bad licensing habits'
 
 # What to read
 - I encourage you to read https://sfconservancy.org/GiveUpGitHub/ for an explanation of osme of the issues with GitHub
@@ -16,4 +19,4 @@
 
 # When I switch
 - When I do switch to an alternative I will keep an active GitHub mirror at first before archiving the GitHub repositories and keep links to my active repo's in the README
-- I will likely keep forks of GitHub projects such as my ish-bugs (that I may want to get merged upstream later) on GitHub for longer so it is easier for the upstream maintainers.
+- I will likely keep forks of GitHub projects such as my ish-bugs (that I may want to get merged upstream later) on GitHub for longer or permanently so it is easier for the upstream maintainers.
