@@ -11,12 +11,15 @@
 # What to read
 - I encourage you to read https://sfconservancy.org/GiveUpGitHub/ for an explanation of osme of the issues with GitHub
 - I encourage you to read https://www.gnu.org/software/repo-criteria-evaluation.html for alternatives to GitHub and their ethics
+
+# Inform people
 - Most of all please inform about the issues with GitHub, on social media or whatever you like.
 
 # Why haven't I switched yet?
 - I am actively looking for decent alternatives to GitHub other than codeberg (because I rely on AI but they banned AI) and self-hosting because my wifi is terrible.
-- I am seeing more promising options now though so may switch soon
+- I am seeing more promising options now though so may switch some repositories soon.
 
 # When I switch
-- When I do switch to an alternative I will keep an active GitHub mirror at first before archiving the GitHub repositories and keep links to my active repo's in the README
-- I will likely keep forks of GitHub projects such as my ish-bugs (that I may want to get merged upstream later) on GitHub for longer or permanently so it is easier for the upstream maintainers.
+- When I do switch to an alternative I will keep an active GitHub mirror at first before archiving some GitHub repositories and I will keep links to my active repo's in the README
+- My smaller projects will be moved to the alternative platform whilst keeping a detailed README saying the programming language(s), usage and other important things on GitHub with links to the actual source code.
+- I will likely keep forks of GitHub projects and important projects such as my ish-bugs (that I may want to get merged upstream later) on GitHub for longer or permanently so it is easier for the upstream maintainers (I will also keep it on the alternative platform).
