@@ -1,11 +1,11 @@
 # The main problems with GitHub
 - GitHub is a proprietary, trade-secret system that is not Free and Open Souce Software (FOSS).
-- GitHub requires JS which is also proprietary.
+- GitHub requires proprietary JS
 - GitHub is owned by Microsoft.
 - Former CEO and founder of GitHub has criticised copyleft licenses.
 - Since 2001 Microsoft has criticised the GPL and copyleft licenses.
 - GitHub completely ignores copyleft licenses such as the GPL when training Copilot.
-- GitHub forces features that most of us don't want.
+- Most of us don't want some of GitHub's features.
 - GitHub seems to want you to have 'bad licensing habits'
 
 # What to read
@@ -16,8 +16,9 @@
 - Most of all please inform about the issues with GitHub, on social media or whatever you like.
 
 # Why haven't I switched yet?
+- I rely on some of GitHub's features such as GitHub actions and codeQL; I'll probably make a mini server for those jobs
 - I am actively looking for decent alternatives to GitHub other than codeberg (because I rely on AI but they banned AI) and self-hosting because my wifi is terrible.
-- I am seeing more promising options now though so may switch some repositories soon.
+- I am seeing more promising options now such as sourcehut so may switch some repositories soon.
 
 # When I switch
 - When I do switch to an alternative I will keep an active GitHub mirror for all repo's at first before archiving some GitHub repositories.
