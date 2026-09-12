@@ -9,7 +9,7 @@
 - GitHub seems to want you to have 'bad licensing habits'
 
 # What to read
-- I encourage you to read https://sfconservancy.org/GiveUpGitHub/ for an explanation of osme of the issues with GitHub
+- I encourage you to read https://sfconservancy.org/GiveUpGitHub/ for an explanation of some of the issues with GitHub
 - I encourage you to read https://www.gnu.org/software/repo-criteria-evaluation.html for alternatives to GitHub and their ethics
 
 # Inform people
