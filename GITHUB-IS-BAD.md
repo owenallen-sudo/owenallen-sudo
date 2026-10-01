@@ -17,5 +17,6 @@
 
 # Why haven't I switched yet?
 - I rely on some of GitHub's features such as GitHub actions and codeQL; I'll probably make a mini server for those jobs along with alternatives on gitbuild.dev
-- I'm transitioning multi-downloader to gitbuild.dev, and I have made small projects exclusively on gitbuild.dev (with a README and link on GitHub).
+- I've actually partually migrated and am transitioning multi-downloader to gitbuild.dev, I have also made small projects exclusively on gitbuild.dev (with a README and link on GitHub).
 - I will keep an active GitHub mirror for big projects.
+- I will soon host ish-bugs in gitbuild.dev whilst keeping a mirror on GitHub to make PRs easier.
