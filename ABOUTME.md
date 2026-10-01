@@ -1,5 +1,5 @@
 # Basic facts about me
-- I am a self-taught open-source developer, strongest in low-level systems, architecture, and security. Weak with syntax, abstractions, and high-level languages (I can't even write a web app, low-level is just more intuitive somehow). ps: Never ask me to program in HTML, CSS, JS and probably not python. Also if you ask me to fix a memory leak without looking up syntax I'll struggle (I'd even rather see i = i + 1 if possible to i++).
+- I am a self-taught open-source developer, strongest in low-level systems, architecture, and security. Weak with syntax, abstractions, and high-level languages (I can't even write a web app, low-level is just more intuitive somehow). (ps: If you ask me to program even a JS web app, it really won't go well.) Also if you ask me to fix a memory leak without looking up syntax I'll struggle (I'd even rather see i = i + 1 if possible to i++).
 - I only work on projects with purpose.
 - I am open to AI but also have concerns with it.
 
