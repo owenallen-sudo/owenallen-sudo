@@ -16,8 +16,12 @@ Instead of the bloated sudo, I use a fork of opendoas on an Artix build... Visit
 # My smaller projects
 - multi-downloader combines some of the best tools for downloading software in their specific niche for fast downloads and so I don't have to remember each tool's specific usage. It is recently in a transition to gitbuild.dev (based on forgeJS). Check the subheading below if interested.
 - keyd-runit-artix is a runit script to start keyd (an OS-level key remapper) because I realised there is no official package. Despite a very small thing it can make life more convienient.
+
 **Note:** I have other projects not mentioned but maintain them less actively because superior or more active alternatives exist (e.g., iwmenu vs. my iwdwifi).
 
+# My multi-downloader project in more detail:
+- multi-downloader combines some of the best tools (such as surge, git, wget for finding filenames before something else downloads the actual files when downloading a whole directory and many more) for downloading software in their specific niche for fast downloads and so I don't have to remember each tool's specific usage.
+- It hasn't been given much modifications recently because it works well for me and so far as I know it has no issues or bugs. Don't get me wrong, this project isn't abandoned, it just works so I don't want to bloat it.
 # Contributions
 - I would love it for people to audit my codebases, especially with AI so I can keep my code clean, free of bloat and free of bugs. Particularly in ish-bugs.
 - If you have a mac and an iPhone please do dynamic analysis and testing of ish-bugs since I don't have a mac and therefore can't sideload my own changes.
