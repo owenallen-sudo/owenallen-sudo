@@ -16,12 +16,6 @@
 - Most of all please inform about the issues with GitHub, on social media or whatever you like.
 
 # Why haven't I switched yet?
-- I rely on some of GitHub's features such as GitHub actions and codeQL; I'll probably make a mini server for those jobs
-- I am actively looking for decent alternatives to GitHub other than codeberg (because I rely on AI but they banned AI) and self-hosting because my wifi is terrible.
-- I plan on moving some of my smallest projects such as multi-downloader very soon
-
-# When I switch
-- When I do switch to an alternative I will keep an active GitHub mirror for the bigger projects.
-- My smaller projects will be moved to the ahttps://github.com/lternative platform whilst keeping a detailed README saying the programming language(s), usage and other important things on GitHub with links to the actual source code.
-- I will likely keep forks of GitHub projects and important projects such as my ish-bugs (that I may want to get merged upstream later) on GitHub for longer or permanently so it is easier for the upstream maintainers (I will also keep it on the alternative platform).
-- I will likely use gitbuild.dev or sourcehut
+- I rely on some of GitHub's features such as GitHub actions and codeQL; I'll probably make a mini server for those jobs along with alternatives on gitbuild.dev
+- I'm transitioning multi-downloader to gitbuild.dev, and I have made small projects exclusively on gitbuild.dev (with a README and link on GitHub).
+- I will keep an active GitHub mirror for big projects.
