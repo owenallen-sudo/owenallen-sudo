@@ -4,9 +4,9 @@
 - GitHub is owned by Microsoft.
 - Former CEO and founder of GitHub has criticised copyleft licenses.
 - Since 2001 Microsoft has criticised the GPL and copyleft licenses.
-- GitHub completely ignores copyleft licenses such as the GPL when training Copilot.
+- GitHub ignored the GPL when training copilot, 700,000 times.
 - Most of us don't want some of GitHub's features.
-- GitHub seems to want you to have 'bad licensing habits'
+- GitHub seems to want you to have 'bad licensing habits'.
 
 # What to read
 - I urge you to read https://sfconservancy.org/GiveUpGitHub/ for an explanation of some of the issues with GitHub
