@@ -7,10 +7,10 @@ Instead of the bloated sudo, I use a fork of opendoas on an Artix build... Visit
 - Contrasting with popular opinion in iSH developers communities I like to view proprietary sandboxes (including the one in iOS) as non-existent since I can't audit them.
 - I also add error codes in the situation of a crash to prevent silent failures.
 
-## What I've fixed and focus most on in it
+## What I've fixed and focus most on in ish-bugs
 - I focus on resource leaks a lot since they eat resources, make the system unstable and ruin security.
 - I also focus a lot on integer overflow/underflows, buffer overflow/underflows and null pointer dereferences a lot simply they are such major vulnerabilities.
-## PRs
+## PR plans for ish-bugs
 - Despite contrasts in philosophy I plan on PRs because who realistically is going to put down a security fix. I will organise my commits, improve commit details and test my build out (with sidestore or something) and split the PR into multiple smaller ones first.
 
 # My smaller projects
