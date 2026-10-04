@@ -1,5 +1,5 @@
 # Basic facts of my setup
-- **My OS** I use a manual artix base build
+- **My OS** I use a manual artix base-minimal based build
 - **Root access:** opendoas
 - **Init system:** runit (clean and follows the Unix philosophy)
 - **Bootloader:** Limine (less bloated than GRUB)
