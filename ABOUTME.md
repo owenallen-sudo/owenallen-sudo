@@ -4,7 +4,7 @@
 - I am open to AI but also have concerns with it.
 
 # My interests and curiosiities
-- Plan9's namespaces (haven't tried plan9, just curiosity)
+- Plan9 (and genode) namespaces for everything (haven't tried either, just curiosity). 
 - seL4 microkernel, especially regarding the "fast-lane" and other things causing fast IPC communications (haven't tried seL4, just curiosity)
 - LionsOS and the seL4 microkit, especially the lock-free design (just curiosity, haven't tried it)
 - be filesystem extended attributes
