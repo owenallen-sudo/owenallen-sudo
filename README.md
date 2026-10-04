@@ -14,7 +14,7 @@ Instead of the bloated sudo, I use opendoas on an Artix build... Visit my MYSETU
 
 # My smaller projects
 - multi-downloader combines several existing tools for downloading software in their specific niche for fast downloads. Check the subheading below if interested.
-- keyd-runit-artix is a runit script to start keyd (an OS-level key remapper) because I realised there is no official package. Despite a very small thing it can make life more convienient.
+- keyd-runit is a runit script to start keyd (an OS-level key remapper) because I realised there is no official package. Despite a very small thing it can make life more convienient. It is available as a source code, PKGBUILD and arch/artix package you can add. Hosted on codetrunk.
 
 **Note:** I have other projects not mentioned but maintain them less actively because superior or more active alternatives exist (e.g., iwmenu vs. my iwdwifi).
 
