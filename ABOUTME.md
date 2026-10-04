@@ -5,8 +5,11 @@
 
 # My interests and curiosiities
 - Plan9's namespaces (haven't tried plan9, just curiosity)
-- seL4 and LionsOS especially regarding the "faat-lane" and other things causing fast IPC communications as well as the lock-free design of LionsOS (haven't tried them, just curiosity)
-- beOS/Haiku extended attributes and multithreading architecture (haven't tried them, just curiosity)
-- Fuchsia's object-oriented model instead of namespaces
-- Zircon as a "microkernel that isn't micro" with sockets and streams, futexes and other basic things inbuilt. Probably the future because of security, stability and portability reasons (one may even argue for multiple cores it is faster than a monolithic because you can fine-grain concurrency a lot more).
-- My greatest interests are in kernel and filesystem architectures but that is just curiosity for now.
+- seL4 microkernel, especially regarding the "fast-lane" and other things causing fast IPC communications (haven't tried seL4, just curiosity)
+- LionsOS and the seL4 microkit, especially the lock-free design (just curiosity, haven't tried it)
+- be filesystem extended attributes
+- beOS multithreading architecture (haven't tried beOS, just curiosity)
+- Fuchsia's object-oriented model instead of namespaces (haven't tried it, just curiosity)
+- Zircon as a "microkernel that isn't micro" with sockets and streams, futexes and other basic things inbuilt, wish it was based on seL4 for speed instead though. I believe this design to probably be the future because of security, stability and portability reasons (one may even argue for multiple cores it is faster than a monolithic because you can fine-grain concurrency a lot more). Just curiosity, not tried it.
+- AmigaOS (how it is one namespace and 'modules' are loaded like libraries)
+- My greatest interests are in kernel and filesystem architectures but that is just curiosity and research for now.
