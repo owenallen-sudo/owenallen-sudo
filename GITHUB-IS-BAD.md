@@ -16,7 +16,7 @@
 - Most of all please inform about the issues with GitHub, on social media or whatever you like.
 
 # Why haven't I switched yet?
-- I rely on some of GitHub's features such as GitHub actions and codeQL; I'll probably make a mini server for those jobs along with alternatives on codetrunk (formerly gitbuild.dev)
-- I've actually partially migrated and am transitioning multi-downloader to codetrunk, I have also made small projects exclusively on codetrunk (with a README and link on GitHub).
+- I rely on some of GitHub's features such as GitHub actions and codeQL; I'll probably make a mini server for those jobs along with hosted alternatives.
+- I've actually partially migrated and am transitioning to codetrunk for projects using AI and codeberg for ones that don't use any AI.
 - I will keep an active GitHub mirror for big projects.
-- I will soon host ish-bugs on codetrunk (whilst keeping a mirror on GitHub to make PRs easier.
+- I am moving ish-bugs to codetrunk (whilst keeping a mirror on GitHub to make PRs easier).
