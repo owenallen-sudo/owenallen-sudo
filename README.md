@@ -5,6 +5,7 @@ Instead of the bloated sudo, I use opendoas on an Artix build... Visit my MYSETU
 - ish-bugs is a project focusing on fixing major vulnerabilities and bugs in iSH (an x86 alpine emulator on iOS) as well as just cleaning the codebase.
 - Contrasting with popular opinion in iSH developers communities I like to view proprietary sandboxes (including the one in iOS) as non-existent since I can't audit them.
 - I also add error codes in the situation of a crash to prevent silent failures.
+- I am migrating to CodeTrunk for ish-bugs.
 
 ## What I've fixed and focus most on in ish-bugs
 - I focus on resource leaks a lot since they eat resources, make the system unstable and ruin security.
@@ -13,8 +14,8 @@ Instead of the bloated sudo, I use opendoas on an Artix build... Visit my MYSETU
 - Despite contrasts in philosophy I plan on PRs because who realistically is going to put down a security fix. I will organise my commits, improve commit details and test my build out (with sidestore or something) and split the PR into multiple smaller ones first (my PR was denied before so I will try all these first).
 
 # My smaller projects
-- multi-downloader combines several existing tools for downloading software in their specific niche for fast downloads. Check the subheading below if interested.
-- keyd-runit is a runit script to start keyd (an OS-level key remapper) because I realised there is no official package. Despite a very small thing it can make life more convienient. It is available as a source code, PKGBUILD and arch/artix package you can add. Hosted on codetrunk.
+- multi-downloader combines several existing tools for downloading software in their specific niche for fast downloads. Hosted on CodeTrunk. Check the subheading below if interested.
+- keyd-runit is a runit script to start keyd (an OS-level key remapper) because I realised there is no official package. Despite a very small thing it can make life more convienient. It is available as a source code, PKGBUILD and artix package you can add. Hosted on codeberg.
 
 **Note:** I have other projects not mentioned but maintain them less actively because superior or more active alternatives exist (e.g., iwmenu vs. my iwdwifi).
 
