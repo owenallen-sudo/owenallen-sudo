@@ -14,10 +14,10 @@ Instead of the bloated sudo, I use opendoas on an Artix build... Visit my MYSETU
 - Despite contrasts in philosophy I plan on PRs because who realistically is going to put down a security fix. I will organise my commits, improve commit details and test my build out (with sidestore or something) and split the PR into multiple smaller ones first (my PR was denied before so I will try all these first).
 
 # My smaller projects
-- multi-downloader combines several existing tools for downloading software in their specific niche for fast downloads. Hosted on CodeTrunk. Check the subheading below if interested.
+- multi-downloader combines several existing tools for downloading software in their specific niche for fast downloads. Hosted on CodeTrunk. Largely made by AI, no license and warning about licensing due to ambiguity. Check the subheading below if interested.
 - keyd-runit is a runit script to start keyd (an OS-level key remapper) because I realised there is no official package. Despite a very small thing it can make life more convienient. It is available as a source code, PKGBUILD and artix package you can add. Hosted on codeberg.
 
-**Note:** I have other projects not mentioned but maintain them less actively because superior or more active alternatives exist (e.g., iwmenu vs. my iwdwifi).
+**Note:** I used to have other projects but I realised superior alternatives exist, and so deleted them.
 
 # My multi-downloader project in more detail:
 - multi-downloader combines some of the best tools (such as surge, git, wget for finding filenames before something else downloads the actual files when downloading a whole directory and many more) for downloading software in their specific niche for fast downloads and so I don't have to remember each tool's specific usage. It is recently in a transition to codetrunk (formerly gitbuild)
