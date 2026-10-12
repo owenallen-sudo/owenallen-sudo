@@ -15,5 +15,7 @@
 - Zircon as a "microkernel that isn't micro" with sockets and streams, futexes and other basic things inbuilt. Wish it was based on seL4 instead though (for security and performance reasons). I believe a "microkernel that isn't micro" will probably be the future because of security, stability and portability reasons (one may even argue for multiple cores it is faster than a monolithic because you can fine-grain SMP a lot further). Not tried it, just research.
 - AmigaOS (how it is one namespace and 'modules' are loaded like libraries). Not tried it, purely research.
 - DragonflyBSD per-CPU scheduler (LWKT), token-based serialisation and other modifications of the freeBSD base, especially in the kernel. Not tried it, just research.
+- FreeBSD jails (just curiosity, I don't know much about them yet)
+- OpenBSD minimalism and auditability (probably part of the reason why I prefer doas and libressl to sudo and openssl).
 - Oberon's radical simplicity and extensibility, fitting in under 200KB with an editor and window management. Not tried it, just research
 - My greatest interests are in kernel and filesystem architectures but that is just curiosity and research for now.
