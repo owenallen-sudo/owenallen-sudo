@@ -1,4 +1,4 @@
-- As a modern improvement and generalisation of the unix philosophy 'do one thing and do it well' and 'everything is a file', it shluld really be 'Make it as extensible, buildable and composable as possible, with a simple base all over as unified of a protocol as possible. So long as you don't introduce significant drawbacks, that is.', whether that protocol is namespaces or whatever you choose.
+- As a modern improvement and generalisation of the unix philosophy 'do one thing and do it well' and 'everything is a file', it should really be 'Make it as extensible, buildable and composable as possible, with a simple base all over a unified protocol. So long as you don't introduce significant drawbacks, that is.', whether that protocol is namespaces or whatever you choose.
 - I believe programs should be structured as a library first with any CLI command for it just a wrapper, like curl and libcurl.
 - Libraries should do one simple thing and ones doing bigger jobs should be made of small libraries.
 - Libraries and commands should be made for tiny purposes, so they can be joined together easily for quick to write and easy to understand code.
