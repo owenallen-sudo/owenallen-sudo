@@ -6,6 +6,7 @@ Instead of the bloated sudo, I use opendoas on an Artix build... Visit my MYSETU
 - Contrasting with popular opinion in iSH developers communities I like to view proprietary sandboxes (including the one in iOS) as non-existent since I can't audit them.
 - I also add error codes in the situation of a crash to prevent silent failures.
 - I am migrating to CodeTrunk for ish-bugs.
+- I have another GitHub account where I do similar things but started the ish fork from scratch with individual fixes; so upstream PRs are easier.
 
 ## What I've fixed and focus most on in ish-bugs
 - I focus on resource leaks a lot since they eat resources, make the system unstable and ruin security.
