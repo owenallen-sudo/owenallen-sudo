@@ -20,7 +20,7 @@ Instead of the bloated sudo, I use opendoas on an Artix build... Visit my MYSETU
 - keyd-runit is a runit script to start keyd (an OS-level key remapper) because I realised there is no official package. Despite a very small thing it can make life more convienient. It is available as a source code, PKGBUILD and artix package you can add. Hosted on codeberg.
 - When I have a project on GitHub being mirrored from another platform, I often use a 'bridge' repository on GitHub with the necessary workflow files to keep the GitHub one up to date.
 
-**Note:** I used to have other projects but I realised superior alternatives exist, and so deleted them.
+**Note:** I used to have other projects but I realised superior or more common alternatives (eg. iwdwifi vs iwmenu and when I realised somebody already made a keyd-runit on the AUR) exist, and so deleted them.
 
 # My multi-downloader project in more detail:
 - multi-downloader combines some of the best tools (such as surge, git, wget for finding filenames before something else downloads the actual files when downloading a whole directory and many more) for downloading software in their specific niche for fast downloads and so I don't have to remember each tool's specific usage. It is recently in a transition to codetrunk (formerly gitbuild)
