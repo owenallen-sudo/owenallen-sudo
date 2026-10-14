@@ -18,6 +18,7 @@ Instead of the bloated sudo, I use opendoas on an Artix build... Visit my MYSETU
 # My smaller projects
 - multi-downloader combines several existing tools for downloading software in their specific niche for fast downloads. Hosted on CodeTrunk. Largely made by AI, no license and warning about licensing due to ambiguity. Check the subheading below if interested.
 - keyd-runit is a runit script to start keyd (an OS-level key remapper) because I realised there is no official package. Despite a very small thing it can make life more convienient. It is available as a source code, PKGBUILD and artix package you can add. Hosted on codeberg.
+- When I have a project on GitHub being mirrored from another platform, I often use a 'bridge' repository on GitHub with the necessary workflow files to keep the GitHub one up to date.
 
 **Note:** I used to have other projects but I realised superior alternatives exist, and so deleted them.
 
@@ -26,4 +27,3 @@ Instead of the bloated sudo, I use opendoas on an Artix build... Visit my MYSETU
 - It hasn't been given much modifications recently because it works well for me and so far as I know it has no issues or bugs. Don't get me wrong, this project isn't abandoned, it just works so I don't want to bloat it.
 # Contributions
 - I would love it for people to audit my codebases, especially with AI so I can keep my code clean, free of bloat and free of bugs. Particularly in ish-bugs.
-- If you have a mac and an iPhone please do dynamic analysis and testing of ish-bugs since I don't have a mac and therefore can't sideload my own changes.
