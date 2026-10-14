@@ -13,6 +13,7 @@ Instead of the bloated sudo, I use opendoas on an Artix build... Visit my MYSETU
 - I also focus a lot on integer overflow/underflows, buffer overflow/underflows and null pointer dereferences a lot simply they are such major vulnerabilities.
 ## PR plans for ish-bugs
 - Despite contrasts in philosophy I plan on PRs because who realistically is going to put down a security fix. I will organise my commits, improve commit details and test my build out (with sidestore or something) and split the PR into multiple smaller ones first (my PR was denied before so I will try all these first).
+- I've done 2 PRs before; my last one (on my other GitHub account) suceeded with just one smal code cleanup. My other one due to not being tested and bad descriptions was closed without being merged.
 
 # My smaller projects
 - multi-downloader combines several existing tools for downloading software in their specific niche for fast downloads. Hosted on CodeTrunk. Largely made by AI, no license and warning about licensing due to ambiguity. Check the subheading below if interested.
